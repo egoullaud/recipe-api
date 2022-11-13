@@ -64,7 +64,7 @@ function Popular() {
                         >   
                             <Link to={"/recipe/"+recipe.id}>
                                 <p
-                                 className='hover:underline absolute text-[#222] text-xl px-2 z-10 ml-[50%] bottom-5 translate-x-[-50%] translate-y-0  w-full text-center font-bold flex items-center justify-center'
+                                 className='hover:underline absolute text-[#000] text-xl px-2 z-10 ml-[50%] bottom-5 translate-x-[-50%] translate-y-0  w-full text-center font-bold flex items-center justify-center'
                                  >
                                     {recipe.title}
                                 </p>

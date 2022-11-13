@@ -61,20 +61,20 @@ function Veggie() {
               return(
                   <SplideSlide key={recipe.id}>
                       <div 
-                      className='relative h-[15rem] overflow-hidden'
+                      className='relative h-[15rem] overflow-hidden mb-[5rem]'
                       >   
                           <Link to={"/recipe/"+recipe.id}>
-                              <p
-                               className='hover:underline absolute text-[#222] text-xl px-2 z-10 ml-[50%] bottom-5 translate-x-[-50%] translate-y-0  w-full text-center font-bold flex items-center justify-center'
-                               >
-                                  {recipe.title}
-                              </p>
+                             
                               <img 
                               className='absolute ml-0 w-full h-full object-cover' 
                               src={recipe.image} alt={recipe.title}
                           />
+                           <p
+                               className='hover:underline  text-[#000] text-xl px-2 z-10 ml-[50%] bottom-0 translate-x-[-50%] translate-y-0  w-full text-center font-bold flex items-center justify-center'
+                               >
+                                  {recipe.title}
+                              </p>
                           <div 
-                          // className='z-3 absolute w-full height-full bg-gradient-to-r from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.5)]'
                           />
                           </Link>
                       </div>

@@ -7,7 +7,7 @@ import Category from './components/Category';
 
 function App() {
   return (
-    <div>
+    <div className='w-full'>
       <BrowserRouter>
       <div className='text-[#EEEEEE] pl-2 h-24 w-full flex justify-between items-center bg-[#222831] border-b-2 border-b-[#00ad85]'>
         <div className='flex justify-start'>

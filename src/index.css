@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 body {
   background-color: #222831;
   margin: 0;
@@ -13,6 +19,21 @@ body {
 
 h3{
   font-family:'Lobster Two', cursive;
+}
+
+button{
+padding: 1rem 1.2rem;
+color: #222831;
+background: #eeeeee;
+border: 2px solid #393e46;
+font-weight: 600;
+margin: 1rem 1rem 1rem 0rem;
+}
+
+button:active{
+  color: #eeeeee;
+  background: #393e46;
+  border: 2px solid #222831;
 }
 
 
